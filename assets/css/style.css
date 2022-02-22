@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main-home{
+    background-color: #f4f4f4;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 0.5rem; */
+    padding-bottom: 0.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.main-home{
+    background-color: #afafb1;
+}
