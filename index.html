@@ -22,17 +22,16 @@
 
 <body>
 
-    
     <!-- Header -->
     <header>
         <div class="container">
             <div class="header-top d-flex justify-content-between">
-                <div class="d-flex">
+                <div class="d-flex mt-3">
                     <div class="item d-flex gy-2">
                         <a href="#">
                             <i class="fa-solid fa-location-dot" style="color: #afafb1;"></i>
                         </a>
-                        <p class="ms-2" style="color: #afafb1;">British Surrey, Canada</p>
+                        <p class="ms-2" style="color: #afafb1;">Surrey, British Columbia, Canada</p>
                     </div>
                     <div class="item d-flex gy-2">
                         <a href="#">
@@ -50,20 +49,21 @@
                 
                 <div class="d-flex ">
                     
+                    <div class="username mt-2">
+                        <input type="text" name="username" id="username" placeholder="Username" style="border: none; outline: none;" class=" item p-1 me-2"/>
+                    </div>
+                    
+                    <div class="password mt-2">
+                        <input type="text" name="password" id="password" placeholder="Password" style="border: none; outline: none;" class=" item p-1 me-2"/>
+                    </div>
+                    
+                    <div class="icon">
+                        <i class=" ms-2 me-5 mx-8 fa-solid fa-angle-right p-2 mt-2"></i>
+                    </div>
+
+                    <!-- HAMBURGER -->
                     <!--Navbar-->
                     <nav class="navbar navbar-light light-blue lighten-4 justify-content-end">
-                        
-                        <!-- Navbar brand -->
-                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                        <p class="item ms-2 me-5 mx-8">
-                            Username
-                        </p>
-                        <p class="item ms-2 me-5 mx-8">
-                            Password
-                        </p>
-                        <p class="item ms-2 me-5 mx-8">
-                            <i class="fa-regular fa-angle-right"></i>
-                        </p>
                         
                         <!-- Collapse button -->
                         <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
@@ -202,28 +202,18 @@
                       </div>
                 </div>
             </div>
-
-
-            <!-- Latest Projects Section -->
-            <div class="row mt-3" style="background-color: #fff;">
-                <h5  class="mt-4 mb-4 ms-3" style="color: #4da6b3;">LATEST PROJECTS</h5>
-                <div class="col-md-3 ms-3 h-75%">
-                    <div class="card bg-dark text-white rounded-0">
-                        <img src="assets/img/project1.png" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-            </div>
-            <!-- Latest Projects Section end -->
         </div>
         <!-- Card section end -->
+        <!-- Latest Projects Section -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        <!-- Latest Projects Section end -->
     </section>
     <!-- Main home section end -->
 
