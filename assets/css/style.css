@@ -24,3 +24,20 @@
 .dark-blue-text {
     color: #0A38F5;
 }
+.three-dots{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 68rem;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #007eb7;
+    display: inline-block;
+    /* margin: 0.01rem; */
+}
+
+.dot-color {
+    background-color: #84b4be;
+}
