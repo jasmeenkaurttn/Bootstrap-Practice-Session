@@ -41,3 +41,21 @@
 .dot-color {
     background-color: #84b4be;
 }
+
+.card-section-right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.card-section-right ul li {
+    list-style: none;
+}
+.card-section-right .btn {
+    float: right;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    border-radius: 0px;
+    background-color: #0080be; 
+    outline: none;
+}
