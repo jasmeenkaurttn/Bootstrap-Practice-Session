@@ -24,6 +24,12 @@
 .dark-blue-text {
     color: #0A38F5;
 }
+
+/* Logo : JM Services */
+.logo{
+    width: 15rem;
+    height: 8.6rem;
+}
 .three-dots{
     text-align: center;
     margin-top: 1rem;
@@ -41,10 +47,13 @@
 .dot-color {
     background-color: #84b4be;
 }
-
+.card-section-right p {
+    color: #afafb1;
+}
 .card-section-right ul {
     padding: 0;
     margin: 0;
+    color: #afafb1;
 }
 
 .card-section-right ul li {
@@ -58,4 +67,83 @@
     border-radius: 0px;
     background-color: #0080be; 
     outline: none;
+}
+
+.profile img {
+    position: relative;
+    top: -5px;
+    /* left: 38%; */
+    border: 2px solid gray;
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.three-dots-profile{
+    margin-top: 1rem;
+    margin-left: 10.5rem;
+}
+
+.dot-color-profile {
+    background-color: #afafb1;
+}
+
+/* Footer CSS */
+footer{
+    margin-top: 1rem;
+    width: 98.1vw;
+    background-color: #e7e7e7;
+}
+
+.news,.stay-connected h4{
+    margin-bottom: 2rem;
+}
+/* Popular articles */
+.articles h4 {
+    margin-bottom: 2rem;
+}
+.articles, .tags h4{
+    margin-bottom: 2rem;
+}
+footer .articles ul li {
+    list-style: none;
+    color: #007cbf;
+    margin-bottom: 3px;
+}
+
+/* Tags */
+.links .btn{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    border-radius: 0px;
+    background-color: #0080be; 
+    outline: none;
+    margin-bottom: 0;
+}
+
+/* Latest News */
+.news1 h6, .news2 h6{
+    color: #007cbf;
+}
+.news1 p, .news2 p{
+    color: #afafb1;
+}
+
+.social-media-icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.social-media-icons i {
+    flex: 0 0 33.33%;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #e7e7e7;
+    color: #afafb1;
+}
+
+.right{
+    /* float: right; */
+    margin-left: 63rem;
 }
